@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const datosFormulario = {
       nombre: formulario.nombre.value,
       correo: formulario.email.value,
+      password: formulario.password.value,
       opcion: formulario.opcion.value,
       texto: formulario.texto.value,
     };
