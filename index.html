@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Frontend</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form id="formulario">
+      <h1>Foro de consulta</h1>
+      <div class="inputs">
+        <div>
+            <label class="label" for="Nombre">Nombre y apellido:</label>
+            <input type="text" id="nombre" name="nombre" required />
+        </div>  
+        </div>
+        <div>
+          <label class="label" for="Correo">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+      </div>
+
+      <div class="Options">
+        <label for="select">Seleccione el área de consulta:</label>
+        <select id="select" name="opcion">
+          <!-- Las opciones las cargo a un json -->
+        </select>
+      </div>
+
+    <div class="textArea">
+        <label for="textarea">Área de Texto:</label>
+        <textarea
+        id="textarea"
+        name="texto"
+        rows="4"
+        cols="50"
+        placeholder="Mi consulta es..."
+        ></textarea>
+    </div>
+
+    <button type="submit" onclick="sendForm(event)">Enviar</button>
+    </form>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

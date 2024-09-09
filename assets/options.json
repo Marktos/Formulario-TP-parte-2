@@ -1,0 +1,10 @@
+{
+    "opciones": [
+      { "value": "Programacion Frontend", "text": "Programación Frontend" },
+      { "value": "Programacion Backend", "text": "Programación Backend" },
+      { "value": "Practicas Profecionalizantes", "text": "Prácticas Profesionalizantes" },
+      { "value": "Laboratorio FullStack II", "text": "Laboratorio FullStack II" },
+      { "value": "Integracion de Aplicaciones", "text": "Integración de Aplicaciones" }
+    ]
+  }
+  
